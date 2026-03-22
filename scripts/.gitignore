@@ -1,0 +1,27 @@
+# Model checkpoints and optimizer states
+models/adapters/*/checkpoint-*/optimizer.pt
+models/adapters/*/checkpoint-*/rng_state.pth
+models/adapters/*/checkpoint-*/scheduler.pt
+models/adapters/*/checkpoint-*/training_args.bin
+
+# Keep adapter weights but not intermediate checkpoints
+models/adapters/*/checkpoint-*/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+src/__pycache__/
+scripts/__pycache__/
+
+# Raw data sources (too large for git)
+data/sources/
+
+# Virtual environment
+venv/
+
+# Logs
+nohup.log
+
+# OS
+.DS_Store
