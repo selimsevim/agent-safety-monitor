@@ -35,16 +35,17 @@ def predict(model, tokenizer, input_text: str) -> str:
 
 
 def rule_based_predict(input_text: str) -> str:
-    """Baseline: regex on known sensitive paths and outbound calls."""
-    sensitive = bool(re.search(
-        r'(read_env|read_file).*(aws|secret|key|password|token|credential)',
-        input_text, re.I
+    """Baseline: regex on tool names and sensitive patterns."""
+    has_sensitive = bool(re.search(
+        r'(read_env|read_file|load_credential|get_secret|fetch_config)\s*\(',
+        input_text
     ))
-    outbound = bool(re.search(
-        r'(http_post|http_get|exec_shell|send_email|tcp_connect)',
-        input_text, re.I
+    has_outbound = bool(re.search(
+        r'(http_post|http_get|exec_shell|send_email|tcp_connect|'
+        r'transmit_data|post_data|send_request|upload_payload)\s*\(',
+        input_text
     ))
-    if sensitive and outbound:
+    if has_sensitive and has_outbound:
         return "UNSAFE"
     return "SAFE"
 

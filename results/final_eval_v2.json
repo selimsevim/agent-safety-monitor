@@ -1,0 +1,23 @@
+{
+  "rule_based": {
+    "accuracy": 0.5667,
+    "fnr": 0.15,
+    "fpr": 1.0,
+    "cost_weighted": 40,
+    "tp": 17,
+    "fp": 10,
+    "tn": 0,
+    "fn": 3
+  },
+  "fine_tuned": {
+    "accuracy": 0.9667,
+    "fnr": 0.0,
+    "fpr": 0.1,
+    "cost_weighted": 1,
+    "tp": 20,
+    "fp": 1,
+    "tn": 9,
+    "fn": 0
+  },
+  "n_test": 30
+}
