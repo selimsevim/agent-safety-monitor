@@ -2,6 +2,8 @@
 
 A trace-based safety classifier trained on real malicious PyPI packages to detect credential exfiltration in AI agent tool sequences.
 
+![Demo screenshot](demo/demo.png)
+
 ## The Idea
 
 Malware authors have already solved the hardest problem in agent safety research: labeling real exfiltration attacks. This project repurposes malicious PyPI packages as ground-truth behavioral data for training a safety monitor, exploiting the structural analogy between supply chain attacks and misaligned agent tool usage.
