@@ -1,3 +1,7 @@
+# Note: tested on Lambda Labs GH200 (ARM64) with Python 3.10
+# If you hit conflicts, pin: tokenizers==0.19.1 huggingface-hub==0.24.0
+# Do not install torch via pip if system torch with CUDA is available
+
 transformers>=4.40.0
 peft>=0.10.0
 datasets>=2.18.0
