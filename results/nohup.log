@@ -1,0 +1,174 @@
+nohup: ignoring input
+[01:22:15] Starting autoresearch. Budget: 8.0h. Deadline: 09:22:15
+[01:22:15] Search space: 54 configurations
+[01:22:15] Run 1: rank=8 lr=0.0005 epochs=2 threshold=0.3
+[01:25:52]   FNR=0.0000 FPR=0.0000 cost=0 time=1.1min
+[01:25:52]   NEW BEST: FNR inf -> 0.0000
+[01:25:52] Run 2: rank=16 lr=0.0005 epochs=3 threshold=0.5
+[01:29:54]   FNR=0.0000 FPR=0.0000 cost=0 time=1.5min
+[01:29:54]   Discarded (FNR did not improve)
+[01:29:55] Run 3: rank=16 lr=0.0001 epochs=3 threshold=0.3
+[01:33:57]   FNR=0.0278 FPR=0.0000 cost=30 time=1.5min
+[01:33:57]   Discarded (FNR did not improve)
+[01:33:57] Run 4: rank=32 lr=0.0001 epochs=2 threshold=0.5
+[01:37:25]   FNR=0.0278 FPR=0.1500 cost=44 time=1.1min
+[01:37:25]   Discarded (FNR did not improve)
+[01:37:25] Run 5: rank=8 lr=0.0002 epochs=3 threshold=0.7
+[01:41:29]   FNR=0.0139 FPR=0.0000 cost=10 time=1.5min
+[01:41:29]   Discarded (FNR did not improve)
+[01:41:30] Run 6: rank=8 lr=0.0001 epochs=3 threshold=0.7
+[01:44:26]   FNR=0.3472 FPR=0.1500 cost=334 time=1.5min
+[01:44:26]   Discarded (FNR did not improve)
+[01:44:27] Run 7: rank=32 lr=0.0001 epochs=3 threshold=0.3
+[01:48:30]   FNR=0.0139 FPR=0.0000 cost=10 time=1.5min
+[01:48:30]   Discarded (FNR did not improve)
+[01:48:31] Run 8: rank=32 lr=0.0005 epochs=2 threshold=0.3
+[01:52:02]   FNR=0.0000 FPR=0.0000 cost=0 time=1.1min
+[01:52:02]   Discarded (FNR did not improve)
+[01:52:02] Run 9: rank=8 lr=0.0001 epochs=3 threshold=0.5
+[01:55:04]   FNR=0.3194 FPR=0.1500 cost=304 time=1.5min
+[01:55:04]   Discarded (FNR did not improve)
+[01:55:04] Run 10: rank=8 lr=0.0005 epochs=3 threshold=0.3
+[01:59:04]   FNR=0.0000 FPR=0.0000 cost=0 time=1.5min
+[01:59:04]   Discarded (FNR did not improve)
+[01:59:04] Run 11: rank=16 lr=0.0002 epochs=3 threshold=0.5
+[02:03:12]   FNR=0.0000 FPR=0.0000 cost=0 time=1.5min
+[02:03:12]   Discarded (FNR did not improve)
+[02:03:13] Run 12: rank=16 lr=0.0005 epochs=3 threshold=0.7
+[02:07:06]   FNR=0.0000 FPR=0.0000 cost=0 time=1.5min
+[02:07:06]   Discarded (FNR did not improve)
+[02:07:06] Run 13: rank=16 lr=0.0002 epochs=2 threshold=0.7
+[02:10:41]   FNR=0.0000 FPR=0.0000 cost=0 time=1.0min
+[02:10:41]   Discarded (FNR did not improve)
+[02:10:41] Run 14: rank=16 lr=0.0002 epochs=2 threshold=0.3
+[02:13:58]   FNR=0.0000 FPR=0.0000 cost=0 time=1.0min
+[02:13:58]   Discarded (FNR did not improve)
+[02:13:58] Run 15: rank=16 lr=0.0001 epochs=3 threshold=0.7
+[02:18:07]   FNR=0.0278 FPR=0.0000 cost=30 time=1.5min
+[02:18:07]   Discarded (FNR did not improve)
+[02:18:07] Run 16: rank=16 lr=0.0005 epochs=2 threshold=0.7
+[02:21:46]   FNR=0.0000 FPR=0.0000 cost=0 time=1.1min
+[02:21:46]   Discarded (FNR did not improve)
+[02:21:46] Run 17: rank=32 lr=0.0002 epochs=3 threshold=0.7
+[02:25:36]   FNR=0.0000 FPR=0.0000 cost=0 time=1.5min
+[02:25:36]   Discarded (FNR did not improve)
+[02:25:36] Run 18: rank=16 lr=0.0001 epochs=2 threshold=0.7
+[02:28:04]   FNR=0.5139 FPR=0.3500 cost=502 time=1.0min
+[02:28:04]   Discarded (FPR too high)
+[02:28:04] Run 19: rank=8 lr=0.0002 epochs=2 threshold=0.3
+[02:31:13]   FNR=0.0694 FPR=0.0000 cost=60 time=1.1min
+[02:31:13]   Discarded (FNR did not improve)
+[02:31:13] Run 20: rank=32 lr=0.0005 epochs=3 threshold=0.7
+[02:35:22]   FNR=0.0000 FPR=0.0000 cost=0 time=1.5min
+[02:35:22]   Discarded (FNR did not improve)
+[02:35:22] Run 21: rank=32 lr=0.0005 epochs=3 threshold=0.3
+[02:39:20]   FNR=0.0000 FPR=0.0000 cost=0 time=1.5min
+[02:39:20]   Discarded (FNR did not improve)
+[02:39:20] Run 22: rank=8 lr=0.0002 epochs=2 threshold=0.5
+[02:42:41]   FNR=0.1111 FPR=0.0000 cost=100 time=1.1min
+[02:42:41]   Discarded (FNR did not improve)
+[02:42:41] Run 23: rank=16 lr=0.0002 epochs=2 threshold=0.5
+[02:46:15]   FNR=0.0000 FPR=0.0000 cost=0 time=1.1min
+[02:46:15]   Discarded (FNR did not improve)
+[02:46:15] Run 24: rank=8 lr=0.0002 epochs=2 threshold=0.7
+[02:49:25]   FNR=0.1528 FPR=0.0000 cost=140 time=1.1min
+[02:49:25]   Discarded (FNR did not improve)
+[02:49:25] Run 25: rank=16 lr=0.0001 epochs=3 threshold=0.5
+[02:53:29]   FNR=0.0278 FPR=0.0000 cost=30 time=1.5min
+[02:53:29]   Discarded (FNR did not improve)
+[02:53:30] Run 26: rank=16 lr=0.0001 epochs=2 threshold=0.5
+[02:55:41]   FNR=0.5278 FPR=0.3000 cost=518 time=1.1min
+[02:55:41]   Discarded (FNR did not improve)
+[02:55:41] Run 27: rank=32 lr=0.0005 epochs=3 threshold=0.5
+[02:59:41]   FNR=0.0000 FPR=0.0000 cost=0 time=1.5min
+[02:59:41]   Discarded (FNR did not improve)
+[02:59:42] Run 28: rank=16 lr=0.0005 epochs=2 threshold=0.3
+[03:03:16]   FNR=0.0000 FPR=0.0000 cost=0 time=1.1min
+[03:03:16]   Discarded (FNR did not improve)
+[03:03:17] Run 29: rank=16 lr=0.0005 epochs=3 threshold=0.3
+[03:07:13]   FNR=0.0000 FPR=0.0000 cost=0 time=1.5min
+[03:07:13]   Discarded (FNR did not improve)
+[03:07:13] Run 30: rank=32 lr=0.0001 epochs=3 threshold=0.5
+[03:11:07]   FNR=0.0000 FPR=0.0000 cost=0 time=1.5min
+[03:11:07]   Discarded (FNR did not improve)
+[03:11:07] Run 31: rank=32 lr=0.0002 epochs=2 threshold=0.3
+[03:14:41]   FNR=0.0000 FPR=0.0000 cost=0 time=1.1min
+[03:14:41]   Discarded (FNR did not improve)
+[03:14:41] Run 32: rank=32 lr=0.0001 epochs=2 threshold=0.3
+[03:18:16]   FNR=0.0139 FPR=0.0000 cost=10 time=1.1min
+[03:18:16]   Discarded (FNR did not improve)
+[03:18:16] Run 33: rank=16 lr=0.0002 epochs=3 threshold=0.3
+[03:22:17]   FNR=0.0000 FPR=0.0000 cost=0 time=1.5min
+[03:22:17]   Discarded (FNR did not improve)
+[03:22:17] Run 34: rank=32 lr=0.0001 epochs=2 threshold=0.7
+[03:25:51]   FNR=0.0278 FPR=0.0000 cost=30 time=1.0min
+[03:25:51]   Discarded (FNR did not improve)
+[03:25:51] Run 35: rank=16 lr=0.0001 epochs=2 threshold=0.3
+[03:27:53]   FNR=0.6111 FPR=0.2000 cost=578 time=1.0min
+[03:27:53]   Discarded (FNR did not improve)
+[03:27:54] Run 36: rank=8 lr=0.0001 epochs=2 threshold=0.5
+[03:29:43]   FNR=1.0000 FPR=0.0000 cost=920 time=1.1min
+[03:29:43]   Discarded (FNR did not improve)
+[03:29:44] Run 37: rank=16 lr=0.0002 epochs=3 threshold=0.7
+[03:33:35]   FNR=0.0000 FPR=0.0000 cost=0 time=1.5min
+[03:33:35]   Discarded (FNR did not improve)
+[03:33:35] Run 38: rank=32 lr=0.0002 epochs=3 threshold=0.5
+[03:37:34]   FNR=0.0000 FPR=0.0000 cost=0 time=1.5min
+[03:37:34]   Discarded (FNR did not improve)
+[03:37:34] Run 39: rank=16 lr=0.0005 epochs=2 threshold=0.5
+[03:41:01]   FNR=0.0000 FPR=0.0000 cost=0 time=1.1min
+[03:41:01]   Discarded (FNR did not improve)
+[03:41:01] Run 40: rank=32 lr=0.0005 epochs=2 threshold=0.5
+[03:44:27]   FNR=0.0139 FPR=0.0000 cost=10 time=1.1min
+[03:44:27]   Discarded (FNR did not improve)
+[03:44:28] Run 41: rank=32 lr=0.0002 epochs=2 threshold=0.7
+[03:47:53]   FNR=0.0000 FPR=0.0000 cost=0 time=1.1min
+[03:47:53]   Discarded (FNR did not improve)
+[03:47:53] Run 42: rank=32 lr=0.0002 epochs=3 threshold=0.3
+[03:52:03]   FNR=0.0000 FPR=0.0000 cost=0 time=1.5min
+[03:52:03]   Discarded (FNR did not improve)
+[03:52:04] Run 43: rank=8 lr=0.0005 epochs=3 threshold=0.7
+[03:56:10]   FNR=0.0000 FPR=0.0000 cost=0 time=1.5min
+[03:56:10]   Discarded (FNR did not improve)
+[03:56:11] Run 44: rank=32 lr=0.0002 epochs=2 threshold=0.5
+[03:59:39]   FNR=0.0000 FPR=0.0000 cost=0 time=1.1min
+[03:59:39]   Discarded (FNR did not improve)
+[03:59:39] Run 45: rank=32 lr=0.0005 epochs=2 threshold=0.7
+[04:03:21]   FNR=0.0000 FPR=0.0000 cost=0 time=1.1min
+[04:03:21]   Discarded (FNR did not improve)
+[04:03:21] Run 46: rank=8 lr=0.0005 epochs=3 threshold=0.5
+[04:07:22]   FNR=0.0000 FPR=0.0000 cost=0 time=1.5min
+[04:07:22]   Discarded (FNR did not improve)
+[04:07:22] Run 47: rank=8 lr=0.0001 epochs=2 threshold=0.3
+[04:09:16]   FNR=1.0000 FPR=0.0000 cost=920 time=1.1min
+[04:09:16]   Discarded (FNR did not improve)
+[04:09:16] Run 48: rank=8 lr=0.0002 epochs=3 threshold=0.3
+[04:13:09]   FNR=0.0139 FPR=0.0000 cost=10 time=1.5min
+[04:13:09]   Discarded (FNR did not improve)
+[04:13:09] Run 49: rank=8 lr=0.0001 epochs=2 threshold=0.7
+[04:15:01]   FNR=1.0000 FPR=0.0000 cost=920 time=1.0min
+[04:15:01]   Discarded (FNR did not improve)
+[04:15:01] Run 50: rank=32 lr=0.0001 epochs=3 threshold=0.7
+[04:19:00]   FNR=0.0000 FPR=0.0000 cost=0 time=1.5min
+[04:19:00]   Discarded (FNR did not improve)
+[04:19:00] Run 51: rank=8 lr=0.0001 epochs=3 threshold=0.3
+[04:21:54]   FNR=0.3750 FPR=0.2500 cost=363 time=1.5min
+[04:21:54]   Discarded (FNR did not improve)
+[04:21:55] Run 52: rank=8 lr=0.0002 epochs=3 threshold=0.5
+[04:25:51]   FNR=0.0000 FPR=0.0000 cost=0 time=1.5min
+[04:25:51]   Discarded (FNR did not improve)
+[04:25:51] Run 53: rank=8 lr=0.0005 epochs=2 threshold=0.5
+[04:29:19]   FNR=0.0000 FPR=0.0000 cost=0 time=1.1min
+[04:29:19]   Discarded (FNR did not improve)
+[04:29:20] Run 54: rank=8 lr=0.0005 epochs=2 threshold=0.7
+[04:32:49]   FNR=0.0000 FPR=0.0000 cost=0 time=1.1min
+[04:32:49]   Discarded (FNR did not improve)
+[04:32:50] ============================================================
+[04:32:50] Autoresearch complete. 54 runs in 8.0h.
+[04:32:50] Best config: {'run_id': 'run_20260322_012215_001', 'lora_rank': 8, 'lr': 0.0005, 'epochs': 2, 'threshold': 0.3, 'status': 'completed', 'fnr': 0.0, 'fpr': 0.0, 'cost': 0, 'train_time_minutes': 1.1}
+[04:32:50] Best FNR: 0.0000
+[04:32:50] Best adapter: models/adapters/run_20260322_012215_001
+[04:32:51] Best adapter copied to models/adapters/best
+
+Results saved to results/autoresearch_final.json
+Best adapter at: models/adapters/best
